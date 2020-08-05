@@ -1,6 +1,13 @@
 body{
   margin:0;
 }
-#header{
-  background-color:#552778;
+#sticky{
+  background-color:#5528;
 }
+.content{
+  background-color:#5028;
+}
+div.static {position: static;
+  border: 3px solid #73AD21;}
+div#sticky{positon: sticky;
+  border: 3px solid #73AD21;} 
