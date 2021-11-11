@@ -1,1 +1,1 @@
-# radomister.github.io
+# moje.stranka.io
