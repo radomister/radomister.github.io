@@ -1,91 +1,73 @@
+{
+  box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
   padding: 20px;
-  font-family: 'Roboto', sans-serif; /* use the custom font */
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #f8d3e6;
 }
+
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
 }
 
-nav {
-  position: sticky;
-  top: 0;
-  background-color: pink;
-  color: #fff;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav ul {
-  list-style: none;
+header h1 {
+  font-size: 24px;
   margin: 0;
-  padding: 0;
 }
 
-nav li {
-  display: inline-block;
-  margin-right: 20px;
+header nav {
+  display: flex;
 }
 
-nav li:last-child {
-  margin-right: 0;
-}
-
-nav a {
-  color: #fff;
+header nav a {
+  color: #333;
   text-decoration: none;
-  font-size: 20px;
+  margin-left: 10px;
 }
+
 
 main {
-  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
 }
+
+main h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
 
 .gallery {
-  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
 }
 
-.gallery h2 {
-  margin-bottom: 20px;
+.gallery img {
+  width: 100%;
+  height: auto;
 }
 
-.image-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-.image-container img {
-  width: 32%;
-  margin-bottom: 20px;
-}
-
-.about {
-  margin-bottom: 50px;
-}
-
-.about h2 {
-  margin-bottom: 20px;
-}
-
-.contact {
-  margin-bottom: 50px;
-}
-
-.contact h2 {
-  margin-bottom: 20px;
+form {
+  background-color: #fff;
+  padding: 20px;
 }
 
 form label {
@@ -93,29 +75,30 @@ form label {
   margin-bottom: 10px;
 }
 
-form input,
+form input[type="text"],
+form input[type="email"],
 form textarea {
-  display: block;
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
-  border-radius: 5px;
   border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-form input[type="submit"] {
+form textarea {
+  height: 100px;
+}
+
+form button {
   background-color: #333;
   color: #fff;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
   cursor: pointer;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
+form button:hover {
+  background-color: #666;
 }
-
