@@ -14,9 +14,17 @@ header {
 }
 
 nav {
-	flex-basis: 100%;
-	text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: pink;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
+
 
 nav ul {
 	list-style: none;
@@ -50,14 +58,3 @@ main {
 .gallery h2 {
 	margin-bottom: 
 
-nav {
-  position: sticky;
-  top: 0;
-  background-color: pink;
-  color: #fff;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
