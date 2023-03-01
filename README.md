@@ -1,1 +1,1 @@
-# moje.stranka.io
+# sima.photography.io
