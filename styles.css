@@ -49,3 +49,15 @@ main {
 
 .gallery h2 {
 	margin-bottom: 
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: pink;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
