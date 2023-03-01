@@ -1,51 +1,52 @@
 <html>
-<head>
-	<title>Photography Website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header>
-		<h1>Photography Website</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Gallery</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section class="gallery">
-			<h2>Gallery</h2>
-			<div class="image-container">
-				<img src="img/photo1.jpg" alt="Photo 1">
-				<img src="img/photo2.jpg" alt="Photo 2">
-				<img src="img/photo3.jpg" alt="Photo 3">
-				<img src="img/photo4.jpg" alt="Photo 4">
-				<img src="img/photo5.jpg" alt="Photo 5">
-				<img src="img/photo6.jpg" alt="Photo 6">
-			</div>
-		</section>
-		<section class="about">
-			<h2>About</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</p>
-		</section>
-		<section class="contact">
-			<h2>Contact</h2>
-			<form>
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name" required>
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" required>
-				<label for="message">Message:</label>
-				<textarea id="message" name="message" required></textarea>
-				<input type="submit" value="Submit">
-			</form>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2023 Photography Website. All rights reserved.</p>
-	</footer>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Photo Gallery</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="image-container">
+          <img src="https://via.placeholder.com/500x500?text=Image+1" alt="Image 1">
+          <img src="https://via.placeholder.com/500x500?text=Image+2" alt="Image 2">
+          <img src="https://via.placeholder.com/500x500?text=Image+3" alt="Image 3">
+          <img src="https://via.placeholder.com/500x500?text=Image+4" alt="Image 4">
+          <img src="https://via.placeholder.com/500x500?text=Image+5" alt="Image 5">
+          <img src="https://via.placeholder.com/500x500?text=Image+6" alt="Image 6">
+        </div>
+      </section>
+      <section id="about" class="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in ante ac ipsum ullamcorper tincidunt vel vel tellus. Donec efficitur ultrices mauris, a laoreet lectus. Quisque tincidunt odio id bibendum rhoncus. Nullam aliquet consectetur velit, a porttitor arcu pulvinar vel. Sed sodales urna eget augue ullamcorper, vel tempor libero faucibus. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis faucibus justo non enim commodo, non laoreet ante euismod. Donec sed magna turpis. Etiam mollis aliquam magna, et vestibulum erat. Nulla ultrices tempor lectus, nec facilisis odio iaculis quis. Curabitur vitae commodo nunc. Proin vitae fringilla velit. Sed auctor sapien vel justo commodo, quis luctus sapien blandit.</p>
+      </section>
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </section>
+    </main>
+    <footer>
+      &copy; 2023 My Photo Gallery
+    </footer>
+  </body>
 </html>
+
