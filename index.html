@@ -1,62 +1,51 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css"/>
-    <title>
-      Moje první stránky
-    </title>
-  </head>
-  <body>
-    <div id="sticky">
-      <h1 id="title">Moje první stánky</h1>
-      <div id="links">
-        <button><a href="https://www.instagram.com/_radovan_sima_/?hl=cs" class="link"><b>Instagram</a></buttom>
-          <button><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="link"><b>Odkaz</a></button>
-      </div>
-    </div>
-    <div class="static">
-      <h2><i><b>Radovan Šíma</h2>
-    </div>
-      <div class="content">
-       <p class="text"><b>Duis pulvinar. Vivamus ac leo pretium faucibus. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Sed ac dolor sit amet purus malesuada congue. Phasellus et lorem id felis nonummy placerat. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Nullam sit amet magna in magna gravida vehicula. Duis pulvinar. Quisque porta. Mauris elementum mauris vitae tortor. Fusce wisi. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Mauris tincidunt sem sed arcu.</p>
-      
-         <p>Nunc tincidunt ante vitae massa. Nulla non arcu lacinia neque faucibus fringilla. Praesent in mauris eu tortor porttitor accumsan. Donec vitae arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent vitae arcu tempor neque lacinia pretium. Fusce aliquam vestibulum ipsum. Fusce nibh. Nulla quis diam. Et harum quidem rerum facilis est et expedita distinctio. Proin in tellus sit amet nibh dignissim sagittis. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Fusce wisi.</p>
-        
-       <p class="text">Duis pulvinar. Vivamus ac leo pretium faucibus. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Sed ac dolor sit amet purus malesuada congue. Phasellus et lorem id felis nonummy placerat. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Nullam sit amet magna in magna gravida vehicula. Duis pulvinar. Quisque porta. Mauris elementum mauris vitae tortor. Fusce wisi. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Mauris tincidunt sem sed arcu.
-         
-
-<details>Nunc tincidunt ante vitae massa. Nulla non arcu lacinia neque faucibus fringilla. Praesent in mauris eu tortor porttitor accumsan. Donec vitae arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent vitae arcu tempor neque lacinia pretium. Fusce aliquam vestibulum ipsum. Fusce nibh. Nulla quis diam. Et harum quidem rerum facilis est et expedita distinctio. Proin in tellus sit amet nibh dignissim sagittis. In sem justo, commodo ut, suscipit at, pharetra vitae, orci. Fusce wisi.</p></details></p>
-        
-      </div>
-     </div>
-  </body>
-<head2>
-	<title>Sudoku Game</title>
-	<style>
-		table {
-			border-collapse: collapse;
-		}
-		td {
-			border: 1px solid black;
-			width: 40px;
-			height: 40px;
-			text-align: center;
-			font-size: 20px;
-			font-weight: bold;
-		}
-		.disabled {
-			background-color: lightgray;
-			color: gray;
-		}
-	</style>
-</head2>
-<body2>
-	<h1>Sudoku Game</h1>
-	<table id="game-board"></table>
-	<button id="new-game">New Game</button>
-	<button id="check-game">Check Game</button>
-
-	<script>
-		// JavaScript code to create the Sudoku game will go here
-	</script>
-</body2>
+<head>
+	<title>Photography Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Photography Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="gallery">
+			<h2>Gallery</h2>
+			<div class="image-container">
+				<img src="img/photo1.jpg" alt="Photo 1">
+				<img src="img/photo2.jpg" alt="Photo 2">
+				<img src="img/photo3.jpg" alt="Photo 3">
+				<img src="img/photo4.jpg" alt="Photo 4">
+				<img src="img/photo5.jpg" alt="Photo 5">
+				<img src="img/photo6.jpg" alt="Photo 6">
+			</div>
+		</section>
+		<section class="about">
+			<h2>About</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</p>
+		</section>
+		<section class="contact">
+			<h2>Contact</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Photography Website. All rights reserved.</p>
+	</footer>
+</body>
 </html>
